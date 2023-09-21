@@ -12,11 +12,6 @@ import javafx.stage.Stage;
 
 public class ObiWan extends Application {
 
-    public static void main(String[] args) {
-        // Lanza la aplicación JavaFX
-        launch(args);
-    }
-
     @Override
     public void start(Stage escenario) {
         // Configura el título de la ventana
@@ -76,5 +71,10 @@ public class ObiWan extends Application {
         alerta.setHeaderText(null);
         alerta.setContentText(mensaje);
         alerta.showAndWait();
+    }
+
+    public static void main(String[] args) {
+        // Lanza la aplicación JavaFX
+        launch(args);
     }
 }
